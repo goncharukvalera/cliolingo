@@ -1,0 +1,123 @@
+@use '../../styles/index' as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 0 $section-padding-x;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  transition: $transition-base;
+
+  &.scrolled {
+    background: rgba(13, 21, 33, 0.92);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid $color-border;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: $transition-base;
+
+    &:hover {
+      opacity: 0.85;
+    }
+
+    img {
+      width: 220px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__nav-link {
+    color: $color-text-muted;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 8px;
+    transition: $transition-base;
+
+    &:hover {
+      color: $color-text-primary;
+      background: rgba(77, 169, 232, 0.08);
+    }
+
+    &.active {
+      color: $color-primary;
+    }
+  }
+
+  &__lang {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid $color-border;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .lang-btn {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: $color-text-muted;
+      cursor: pointer;
+      transition: $transition-base;
+      border: none;
+      background: transparent;
+      font-family: $font-family;
+
+      &.active,
+      &:hover {
+        color: $color-primary;
+        background: rgba(77, 169, 232, 0.12);
+      }
+    }
+
+    .lang-divider {
+      width: 1px;
+      height: 16px;
+      background: $color-border;
+    }
+  }
+
+  &__cta {
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+}

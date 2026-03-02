@@ -1,0 +1,70 @@
+@use '../../styles/index' as *;
+
+.app-features {
+  background: linear-gradient(135deg, #1a3060 0%, #0f2040 60%, #1a3060 100%);
+  padding: $section-padding-y 0;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+
+    @media (max-width: 768px) {
+      padding: 0 16px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 56px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+      max-width: 440px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+      max-width: 100px;
+      margin: 0 auto;
+    }
+
+    .screen-img {
+      width: 100%;
+      border-radius: 24px;
+      border: 1px solid $color-border;
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5);
+      transition: $transition-base;
+
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 28px 56px rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    .feature-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: $color-primary;
+    }
+
+    .feature-desc {
+      font-size: 0.87rem;
+      color: $color-text-muted;
+      line-height: 1.7;
+    }
+  }
+}

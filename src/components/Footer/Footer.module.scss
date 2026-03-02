@@ -1,0 +1,116 @@
+@use '../../styles/index' as *;
+
+.footer {
+  background: linear-gradient(0, #0d1521 0%, #0f2040 60%, #1a3060 100%);
+  border-top: 1px solid $color-border;
+  padding: 60px 0 32px;
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+
+    @media (max-width: 768px) {
+      padding: 0 16px;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+
+  &__brand {
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+
+      img {
+        width: 160px;
+      }
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: $color-text-muted;
+      line-height: 1.7;
+      max-width: 320px;
+    }
+  }
+
+  &__col {
+    ul {
+      list-style: none;
+
+      li {
+        a {
+          font-size: 0.9rem;
+          color: $color-text-muted;
+          text-decoration: none;
+          transition: $transition-base;
+
+          &:hover {
+            color: $color-primary;
+          }
+        }
+
+        span {
+          font-size: 0.9rem;
+          color: $color-text-muted;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    border-top: 1px solid $color-border;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    p {
+      font-size: 0.82rem;
+      color: $color-text-faint;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 12px;
+
+      a {
+        width: 34px;
+        height: 34px;
+        border-radius: 8px;
+        border: 1px solid $color-border;
+        background: rgba(255, 255, 255, 0.04);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-text-muted;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+        transition: $transition-base;
+
+        &:hover {
+          border-color: $color-border-strong;
+          color: $color-primary;
+          background: rgba(77, 169, 232, 0.08);
+        }
+      }
+    }
+  }
+}

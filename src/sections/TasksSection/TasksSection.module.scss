@@ -1,0 +1,84 @@
+@use '../../styles/index' as *;
+
+.tasks {
+  background: linear-gradient(135deg, #0d1521 0%, #0f2040 60%, #1a3060 100%);
+  padding: $section-padding-y 0;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+      gap: 48px;
+      padding: 0 16px;
+    }
+  }
+
+  &__visual {
+    order: -1;
+
+    @media (max-width: 900px) {
+      order: 1;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 340px;
+      border-radius: 28px;
+      border: 1px solid $color-border;
+      box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
+
+      @media (max-width: 900px) {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__content {
+    .task-list {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .task-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 20px 0;
+      border-bottom: 1px solid $color-border;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:hover .task-title {
+        color: $color-primary;
+      }
+
+      .task-title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: $color-text-primary;
+        transition: $transition-base;
+      }
+
+      .task-desc {
+        font-size: 0.88rem;
+        color: $color-text-muted;
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+@use '../../styles/index' as *;
+
+.why {
+  background: $color-bg-dark;
+  padding: $section-padding-y 0;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+
+    @media (max-width: 768px) {
+      padding: 0 16px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 64px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    background: $gradient-card;
+    border: 1px solid $color-border;
+    border-radius: 20px;
+    padding: 36px;
+    transition: $transition-base;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, $color-primary, transparent);
+      opacity: 0;
+      transition: $transition-base;
+    }
+
+    &:hover {
+      border-color: $color-border-strong;
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+
+      &::before {
+        opacity: 1;
+      }
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $color-primary;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $color-text-muted;
+      line-height: 1.75;
+    }
+  }
+}

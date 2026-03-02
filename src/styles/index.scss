@@ -1,0 +1,195 @@
+// ============================================================
+// ClioLingo Design Tokens & Global Styles
+// ============================================================
+
+// --- Color Palette (derived from presentation) ---
+$color-bg-deep:       #0d1521;
+$color-bg-dark:       #111827;
+$color-bg-card:       #1a2640;
+$color-bg-card-alt:   #1e2d45;
+$color-bg-card-hover: #233359;
+$color-border:        rgba(77, 169, 232, 0.18);
+$color-border-strong: rgba(77, 169, 232, 0.35);
+
+$color-primary:       #4da9e8;
+$color-primary-light: #7bc4f0;
+$color-primary-glow:  rgba(77, 169, 232, 0.25);
+$color-accent:        #f0a500;
+$color-accent-light:  #f5c04a;
+
+$color-text-primary:  #e8edf5;
+$color-text-muted:    #a8b8cc;
+$color-text-faint:    #6b7f96;
+
+// --- Gradients ---
+$gradient-primary: linear-gradient(135deg, #0d1521 0%, #1a2e4a 50%, #0d1521 100%);
+$gradient-card:    linear-gradient(145deg, #1a2640 0%, #1e2d45 100%);
+$gradient-hero:    linear-gradient(135deg, #0d1521 0%, #0f2040 60%, #1a3060 100%);
+$gradient-blue:    linear-gradient(135deg, #2a5fa8 0%, #1a3f78 100%);
+
+// --- Typography ---
+$font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+// --- Spacing ---
+$section-padding-y: 100px;
+$section-padding-x: 24px;
+$container-max:     1200px;
+
+// --- Transitions ---
+$transition-base:   all 0.3s ease;
+$transition-slow:   all 0.5s ease;
+
+// ============================================================
+// Reset & Base
+// ============================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $color-bg-dark;
+  color: $color-text-primary;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+// ============================================================
+// Utilities
+// ============================================================
+
+.container {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: 0 $section-padding-x;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
+}
+
+.section {
+  padding: $section-padding-y 0;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $color-primary;
+  margin-bottom: 16px;
+  padding: 4px 12px;
+  border: 1px solid $color-border-strong;
+  border-radius: 20px;
+  background: rgba(77, 169, 232, 0.08);
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: $color-text-primary;
+  margin-bottom: 20px;
+
+  span {
+    color: $color-primary;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: $color-text-muted;
+  max-width: 640px;
+  line-height: 1.7;
+}
+
+// ============================================================
+// Card Base
+// ============================================================
+
+.card {
+  background: $gradient-card;
+  border: 1px solid $color-border;
+  border-radius: 16px;
+  padding: 28px;
+  transition: $transition-base;
+
+  &:hover {
+    border-color: $color-border-strong;
+    background: $gradient-card;
+    box-shadow: 0 8px 32px rgba(77, 169, 232, 0.12);
+    transform: translateY(-3px);
+  }
+}
+
+// ============================================================
+// Animations
+// ============================================================
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(77, 169, 232, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(77, 169, 232, 0.6); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+// ============================================================
+// Scrollbar
+// ============================================================
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-bg-deep;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-border-strong;
+  border-radius: 3px;
+
+  &:hover {
+    background: $color-primary;
+  }
+}

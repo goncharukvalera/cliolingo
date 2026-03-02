@@ -1,0 +1,75 @@
+@use '../../styles/index' as *;
+
+.stats-section {
+  background: $color-bg-deep;
+  padding: $section-padding-y 0;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+      gap: 48px;
+      padding: 0 16px;
+    }
+  }
+
+  &__content {
+    .bullet-list {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      li {
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        font-size: 0.95rem;
+        color: $color-text-muted;
+
+        &::before {
+          content: '';
+          flex-shrink: 0;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: $color-primary;
+          margin-top: 8px;
+        }
+      }
+    }
+
+    .summary {
+      margin-top: 24px;
+      font-size: 0.95rem;
+      color: $color-text-muted;
+      line-height: 1.7;
+    }
+  }
+
+  &__visual {
+    @media (max-width: 900px) {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 340px;
+      border-radius: 28px;
+      border: 1px solid $color-border;
+      box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

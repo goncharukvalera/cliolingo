@@ -1,0 +1,126 @@
+@use '../../styles/index' as *;
+
+.partners {
+  background: $color-bg-dark;
+  padding: $section-padding-y 0;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+
+    @media (max-width: 768px) {
+      padding: 0 16px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 56px;
+    max-width: 760px;
+  }
+
+  &__intro {
+    font-size: 1rem;
+    color: $color-text-muted;
+    line-height: 1.75;
+    margin-bottom: 48px;
+    max-width: 720px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    background: $gradient-card;
+    border: 1px solid $color-border;
+    border-radius: 20px;
+    padding: 32px;
+    transition: $transition-base;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, $color-primary, transparent);
+      opacity: 0;
+      transition: $transition-base;
+    }
+
+    &:hover {
+      border-color: $color-border-strong;
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(77, 169, 232, 0.12);
+
+      &::after {
+        opacity: 1;
+      }
+
+      .partner-icon {
+        color: $color-primary;
+        background: rgba(77, 169, 232, 0.15);
+      }
+    }
+
+    .partner-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(77, 169, 232, 0.08);
+      border: 1px solid $color-border;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-text-muted;
+      margin-bottom: 20px;
+      transition: $transition-base;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: $color-text-primary;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 0.88rem;
+      color: $color-text-muted;
+      line-height: 1.75;
+    }
+  }
+
+  &__contact {
+    margin-top: 56px;
+    padding: 32px 36px;
+    background: $gradient-card;
+    border: 1px solid $color-border-strong;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+
+    p {
+      font-size: 1rem;
+      color: $color-text-muted;
+      max-width: 500px;
+    }
+  }
+}
