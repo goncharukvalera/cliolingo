@@ -22,7 +22,8 @@ export default function Footer() {
                     <div className={styles.footer__col}>
                         <ul>
                             <li>
-                                <a href="mailto:sales@e-planet.biz">Contact Us: sales@e-planet.biz</a>
+                                <span>Contact Us: </span>
+                                <a href="mailto:sales@e-planet.biz">sales@e-planet.biz</a>
                             </li>
                         </ul>
                     </div>
@@ -30,9 +31,6 @@ export default function Footer() {
 
                 <div className={styles.footer__bottom}>
                     <p>© {new Date().getFullYear()} ClioLingo · e-planet.biz. All rights reserved.</p>
-                    <div className={styles['social-links']}>
-                        <a href="mailto:sales@e-planet.biz" title="Email" id="footer-email-link">@</a>
-                    </div>
                 </div>
             </div>
         </footer>
