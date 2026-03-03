@@ -1,0 +1,54 @@
+@use '../../styles/index' as *;
+
+.investors {
+  padding: $section-padding-y 0;
+  background: $color-bg-dark;
+
+  @media (max-width: 768px) {
+    padding: 64px 0;
+  }
+
+  &__inner {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $section-padding-x;
+
+    @media (max-width: 768px) {
+      padding: 0 16px;
+    }
+  }
+
+  &__header {
+    max-width: 720px;
+    margin-bottom: 56px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: $color-primary;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $color-text-muted;
+      line-height: 1.7;
+    }
+  }
+}

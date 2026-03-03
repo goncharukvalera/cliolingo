@@ -8,6 +8,7 @@ import EfficiencySection from '../sections/EfficiencySection/EfficiencySection'
 import AppFeaturesSection from '../sections/AppFeaturesSection/AppFeaturesSection'
 import HowItWorksSection from '../sections/HowItWorksSection/HowItWorksSection'
 import CtaSection from '../sections/CtaSection/CtaSection'
+import InvestorsSection from '../sections/InvestorsSection/InvestorsSection'
 
 export default function HomePage() {
   return (
@@ -20,9 +21,10 @@ export default function HomePage() {
       <BridgeSection />
       <EfficiencySection />
       <AppFeaturesSection />
-      <HowItWorksSection />
+      {/*<HowItWorksSection />*/}
       {/*<PartnersSection />*/}
-      <CtaSection />
+      <InvestorsSection />
+      {/*<CtaSection />*/}
     </>
   )
 }
