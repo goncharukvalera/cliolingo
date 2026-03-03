@@ -1,65 +1,48 @@
+import { useTranslation } from 'react-i18next'
 import styles from './AboutPage.module.scss'
 import EmailIcon from '@mui/icons-material/Email'
 import Button from '@mui/material/Button'
 
 export default function AboutPage() {
+  const { t } = useTranslation()
+
   return (
     <div className={styles.about}>
       <div className={styles.about__hero}>
         <div className={styles.about__hero_inner}>
-          <span className="section-label">About Us</span>
+          <span className="section-label">{t('about.label')}</span>
           <h1 className="section-title">
-            12 Years of Cloud Excellence in <span>Digital Education</span>
+            {t('about.titlePre')} <span>{t('about.titleHighlight')}</span>
           </h1>
-          <p className="section-subtitle">
-            We have 12-year experience in creating cloud solutions for digital education,
-            with a primary focus on language learning.
-          </p>
+          <p className="section-subtitle">{t('about.intro')}</p>
         </div>
       </div>
 
       <div className={styles.about__body}>
         <div className={styles.about__grid}>
           <div className={styles.about__card}>
-            <div className={styles['card-num']}>12+</div>
-            <div className={styles['card-label']}>Years of Experience</div>
-            <p>
-              Over a decade of building and refining cloud-based educational platforms,
-              serving learners across the globe.
-            </p>
+            <div className={styles['card-num']}>{t('about.card1Num')}</div>
+            <div className={styles['card-label']}>{t('about.card1Label')}</div>
+            <p>{t('about.card1Text')}</p>
           </div>
           <div className={styles.about__card}>
             <div className={styles['card-num']}>🌐</div>
-            <div className={styles['card-label']}>Cross-Platform</div>
-            <p>
-              We always follow modern tendencies and prefer cross-platform, universal, and flexible solutions
-              that work seamlessly on any device.
-            </p>
+            <div className={styles['card-label']}>{t('about.card2Label')}</div>
+            <p>{t('about.card2Text')}</p>
           </div>
           <div className={styles.about__card}>
             <div className={styles['card-num']}>🎯</div>
-            <div className={styles['card-label']}>Language Learning Focus</div>
-            <p>
-              Language learning is our primary domain. ClioLingo is the latest evolution of our expertise,
-              built with proven EdTech methodologies.
-            </p>
+            <div className={styles['card-label']}>{t('about.card3Label')}</div>
+            <p>{t('about.card3Text')}</p>
           </div>
         </div>
 
         <div className={styles.about__text}>
-          <h2>Our Mission</h2>
-          <p>
-            We are always trying to follow modern tendencies and prefer cross-platform universal and
-            flexible solutions. ClioLingo represents the intersection of AI-driven learning, personal
-            tutoring, and transparent progress analytics – creating the most effective path to German
-            language mastery.
-          </p>
+          <h2>{t('about.missionTitle')}</h2>
+          <p>{t('about.missionText')}</p>
 
-          <h2>Contact Us</h2>
-          <p>
-            Whether you are a learner, a potential partner, or an investor, we'd love to hear from you.
-            Reach out to our team at:
-          </p>
+          <h2>{t('about.contactTitle')}</h2>
+          <p>{t('about.contactText')}</p>
           <div className={styles.about__contact}>
             <Button
               id="about-email-btn"

@@ -1,28 +1,28 @@
 import Button from '@mui/material/Button'
 import AutoStoriesIcon from '@mui/icons-material/AutoStories'
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
+import { useTranslation } from 'react-i18next'
 import styles from './Hero.module.scss'
 import appScreenshot from '../../assets/app-screenshot.jpg'
 
 export default function Hero() {
+    const { t } = useTranslation()
+
     return (
         <section className={styles.hero} id="hero">
             <div className={styles.hero__inner}>
                 <div className={styles.hero__content}>
                     <div className={styles.badge}>
                         <span className={styles.dot}/>
-                        AI-Powered Language Learning
+                        {t('hero.badge')}
                     </div>
 
                     <h1>
-                        Your Intelligent Companion on the Path to the{' '}
-                        <span>German Language</span>
+                        {t('hero.titlePre')}{' '}
+                        <span>{t('hero.titleHighlight')}</span>
                     </h1>
 
-                    <p>
-                        Discover a new dimension of learning German – flexible, effective,
-                        and perfectly tailored to your individual needs.
-                    </p>
+                    <p>{t('hero.subtitle')}</p>
 
                     <div className={styles.actions}>
                         <Button
@@ -39,7 +39,7 @@ export default function Hero() {
                             }}
                             href="#features"
                         >
-                            Explore Features
+                            {t('hero.cta')}
                         </Button>
                     </div>
                 </div>
@@ -49,23 +49,23 @@ export default function Hero() {
                         <div className={styles['glow-ring']}/>
                         <img
                             src={appScreenshot}
-                            alt="ClioLingo app screenshot"
+                            alt={t('hero.imgAlt')}
                             className={styles['phone-frame']}
                         />
 
                         <div className={`${styles['floating-card']} ${styles['floating-card--vocab']}`}>
-                            <div className={styles['card-label']}>Your Vocabulary</div>
+                            <div className={styles['card-label']}>{t('hero.vocabLabel')}</div>
                             <div className={styles['card-value']}>
                                 <span className={styles.icon}><AutoStoriesIcon sx={{fontSize: 16}}/></span>
-                                67 words
+                                {t('hero.vocabValue')}
                             </div>
                         </div>
 
                         <div className={`${styles['floating-card']} ${styles['floating-card--streak']}`}>
-                            <div className={styles['card-label']}>Day Streak</div>
+                            <div className={styles['card-label']}>{t('hero.streakLabel')}</div>
                             <div className={styles['card-value']}>
                                 <span className={styles.accent}><LocalFireDepartmentIcon sx={{fontSize: 16}}/></span>
-                                12 days
+                                {t('hero.streakValue')}
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,131 @@
+{
+  "footer": {
+    "aboutUs": "About Us",
+    "contactLabel": "Contact Us: ",
+    "copyright": "© {{year}} ClioLingo · e-planet.biz. All rights reserved."
+  },
+  "hero": {
+    "badge": "AI-Powered Language Learning",
+    "titlePre": "Your Intelligent Companion on the Path to the",
+    "titleHighlight": "German Language",
+    "subtitle": "Discover a new dimension of learning German – flexible, effective, and perfectly tailored to your individual needs.",
+    "cta": "Explore Features",
+    "vocabLabel": "Your Vocabulary",
+    "vocabValue": "67 words",
+    "streakLabel": "Day Streak",
+    "streakValue": "12 days",
+    "imgAlt": "ClioLingo app screenshot"
+  },
+  "why": {
+    "label": "Why ClioLingo",
+    "titleLine1": "The Perfect Symbiosis of Technology",
+    "titleConj": "and",
+    "titleHighlight": "Personal Support",
+    "card1Title": "Independent Learning",
+    "card1Text": "ClioLingo gives you the freedom to set your own learning pace. Use the app anytime, anywhere – whether on the train, during your lunch break, or comfortably at home on the sofa. The intuitive user interface makes learning enjoyable, while intelligent algorithms continuously analyze your learning progress and optimally adapt content to your level.",
+    "card2Title": "Learning with Your Tutor",
+    "card2Text": "Combine the flexibility of the app with personal support from an experienced language teacher. Your tutor gains insight into your detailed learning statistics and can thus specifically address your weaknesses. This unique combination of digital innovation and human expertise makes ClioLingo the ideal solution for anyone who truly wants to master German."
+  },
+  "pillars": {
+    "label": "Core Features",
+    "titlePre": "Four Pillars of Successful",
+    "titleHighlight": "Language Acquisition",
+    "items": [
+      { "title": "Build Vocabulary", "desc": "Learn new vocabulary with innovative methods: flashcards, image association, and context-based exercises help you not just to learn words, but to truly internalize them." },
+      { "title": "Master Grammar", "desc": "Understand the structures of the German language through interactive exercises and clear explanations. From simple sentences to complex constructions – step by step." },
+      { "title": "Train Listening Comprehension", "desc": "Train your ear for the German language with authentic dialogues, podcasts, and audio texts in various difficulty levels and accents." },
+      { "title": "Perfect Pronunciation", "desc": "Use state-of-the-art speech recognition technology to improve your pronunciation. Receive immediate feedback and practice until you sound like a native speaker." }
+    ]
+  },
+  "tasks": {
+    "label": "Learning Design",
+    "titlePre": "Intelligent Variety of Tasks for",
+    "titleHighlight": "Sustainable Learning Success",
+    "items": [
+      { "title": "Interactive Exercises", "desc": "Multiple-choice questions, fill-in-the-blanks, and matching tasks" },
+      { "title": "Playful Challenges", "desc": "Gamification elements motivate and make learning an experience" },
+      { "title": "Everyday Scenarios", "desc": "Realistic situations prepare you for real conversations" },
+      { "title": "Adaptive Tests", "desc": "Regular assessments adapt to your level of knowledge" }
+    ],
+    "body": "Every task has been carefully developed to appeal to different learning styles and cover all aspects of the language. This keeps learning varied and helps you achieve your goals faster.",
+    "imgAlt": "ClioLingo app showing learning tasks"
+  },
+  "stats": {
+    "label": "Progress Tracking",
+    "titlePre": "Your Personal Learning Statistics:",
+    "titleHighlight": "Transparency Creates Motivation",
+    "subtitle": "Comprehensive Analysis of Your Progress",
+    "body": "ClioLingo documents every step of your learning journey. The detailed statistics show you not only how many hours you've invested, but also where your strengths lie and which areas still need attention.",
+    "bullets": [
+      "Daily learning streaks and time investment",
+      "Completed tasks by category",
+      "Error analysis and identification of weaknesses",
+      "Progress in each language area (vocabulary, grammar, listening comprehension, pronunciation)",
+      "Comparison with your own past performance"
+    ],
+    "summary": "This transparent representation of your successes motivates you to keep going and gives you control over your learning process.",
+    "imgAlt": "ClioLingo statistics screen"
+  },
+  "bridge": {
+    "label": "Tutor Integration",
+    "titlePre": "The Bridge Between You",
+    "titleConj": "and",
+    "titleHighlight": "Your Tutor",
+    "steps": [
+      { "title": "You Learn with ClioLingo", "desc": "Complete exercises, train your listening comprehension, and perfect your pronunciation at your own pace." },
+      { "title": "Statistics are Synchronized", "desc": "All your activities and results are automatically recorded and clearly presented." },
+      { "title": "Tutor Analyzes Your Progress", "desc": "Your teacher sees exactly where you are successful and where you need support." },
+      { "title": "Individualized Instruction", "desc": "The tutor customizes lessons to your specific needs and focuses on your challenges." }
+    ],
+    "imgAlt": "Tutor managing classes in ClioLingo"
+  },
+  "efficiency": {
+    "label": "Data-Driven Learning",
+    "titlePre": "Maximum Efficiency Through",
+    "titleHighlight": "Data-Driven Tutor Support",
+    "cards": [
+      { "title": "Targeted Preparation", "desc": "Your tutor optimally prepares for each lesson by reviewing your current learning statistics. No time is wasted searching for your weaknesses." },
+      { "title": "Focused Explanations", "desc": "Instead of repeating general lessons, your teacher concentrates on the grammatical structures and topics where you made specific mistakes. This saves time and significantly accelerates your progress." },
+      { "title": "Additional Theory as Needed", "desc": "Do the statistics show gaps in understanding in certain grammatical topics? Your tutor supplements the app content with detailed explanations and ensures you truly grasp the concepts." },
+      { "title": "Continuous Adaptation", "desc": "The lessons evolve with you. What was a challenge today becomes a strength tomorrow – and your tutor adjusts the focus accordingly." }
+    ]
+  },
+  "appFeatures": {
+    "label": "Inside the App",
+    "title": "App Features",
+    "features": [
+      { "title": "Grammar Exercise", "desc": "Master German grammar with interactive exercises. Learn sentence structures, verb conjugations, and grammatical rules through engaging tasks that adapt to your level." },
+      { "title": "Listening Exercise", "desc": "Train your ear with authentic German dialogues, podcasts, and audio texts. Improve your listening comprehension with content at various difficulty levels and different accents." },
+      { "title": "Practice Vocabulary", "desc": "Build your German vocabulary with innovative learning methods. Use flashcards, image associations, and context-based exercises to internalize new words effectively." }
+    ]
+  },
+  "investors": {
+    "label": "Partners & Investors",
+    "titleT1": "Strategic",
+    "titleHighlight": "Partnership",
+    "titleT2": "Opportunities",
+    "subtitle": "We are currently seeking strategic partners who are interested in the rapidly growing EdTech sector and are looking for innovative tools to attract and engage a high-value audience. We see significant potential for:",
+    "opportunities": [
+      { "title": "Educational Institutions", "desc": "Integrating ClioLingo to enhance curriculum efficiency and teacher-student synchronization." },
+      { "title": "Investors", "desc": "Scaling a platform that solves the common \"drop-out\" problem in digital learning through human accountability and data transparency." },
+      { "title": "Digital Content Creators & Educators", "desc": "Providing your audience with a premium, results-oriented tool that complements your educational content and adds measurable value to your community." }
+    ]
+  },
+  "about": {
+    "label": "About Us",
+    "titlePre": "12 Years of Cloud Excellence in",
+    "titleHighlight": "Digital Education",
+    "intro": "We have 12-year experience in creating cloud solutions for digital education, with a primary focus on language learning.",
+    "card1Num": "12+",
+    "card1Label": "Years of Experience",
+    "card1Text": "Over a decade of building and refining cloud-based educational platforms, serving learners across the globe.",
+    "card2Label": "Cross-Platform",
+    "card2Text": "We always follow modern tendencies and prefer cross-platform, universal, and flexible solutions that work seamlessly on any device.",
+    "card3Label": "Language Learning Focus",
+    "card3Text": "Language learning is our primary domain. ClioLingo is the latest evolution of our expertise, built with proven EdTech methodologies.",
+    "missionTitle": "Our Mission",
+    "missionText": "We are always trying to follow modern tendencies and prefer cross-platform universal and flexible solutions. ClioLingo represents the intersection of AI-driven learning, personal tutoring, and transparent progress analytics – creating the most effective path to German language mastery.",
+    "contactTitle": "Contact Us",
+    "contactText": "Whether you are a learner, a potential partner, or an investor, we'd love to hear from you. Reach out to our team at:"
+  }
+}

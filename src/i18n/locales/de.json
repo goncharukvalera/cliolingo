@@ -1,0 +1,131 @@
+{
+  "footer": {
+    "aboutUs": "Über uns",
+    "contactLabel": "Kontakt: ",
+    "copyright": "© {{year}} ClioLingo · e-planet.biz. Alle Rechte vorbehalten."
+  },
+  "hero": {
+    "badge": "KI-gestütztes Sprachlernen",
+    "titlePre": "Dein intelligenter Begleiter auf dem Weg zur",
+    "titleHighlight": "deutschen Sprache",
+    "subtitle": "Entdecke eine neue Dimension beim Deutschlernen – flexibel, effektiv und perfekt auf deine individuellen Bedürfnisse zugeschnitten.",
+    "cta": "Funktionen entdecken",
+    "vocabLabel": "Dein Wortschatz",
+    "vocabValue": "67 Wörter",
+    "streakLabel": "Tage-Streak",
+    "streakValue": "12 Tage",
+    "imgAlt": "ClioLingo App Screenshot"
+  },
+  "why": {
+    "label": "Warum ClioLingo",
+    "titleLine1": "Die perfekte Symbiose aus Technologie",
+    "titleConj": "und",
+    "titleHighlight": "persönlicher Unterstützung",
+    "card1Title": "Selbstständiges Lernen",
+    "card1Text": "ClioLingo gibt dir die Freiheit, dein eigenes Lerntempo festzulegen. Nutze die App jederzeit und überall – ob in der Bahn, in der Mittagspause oder bequem auf dem Sofa. Die intuitive Benutzeroberfläche macht das Lernen zum Erlebnis, während intelligente Algorithmen deinen Lernfortschritt kontinuierlich analysieren und die Inhalte optimal an dein Niveau anpassen.",
+    "card2Title": "Lernen mit deinem Tutor",
+    "card2Text": "Kombiniere die Flexibilität der App mit persönlicher Unterstützung durch einen erfahrenen Sprachlehrer. Dein Tutor erhält Einblick in deine detaillierten Lernstatistiken und kann so gezielt auf deine Schwächen eingehen. Diese einzigartige Kombination aus digitaler Innovation und menschlichem Fachwissen macht ClioLingo zur idealen Lösung für alle, die Deutsch wirklich meistern möchten."
+  },
+  "pillars": {
+    "label": "Kernfunktionen",
+    "titlePre": "Vier Säulen des erfolgreichen",
+    "titleHighlight": "Sprachenlernens",
+    "items": [
+      { "title": "Wortschatz aufbauen", "desc": "Lerne neuen Wortschatz mit innovativen Methoden: Karteikarten, Bildassoziationen und kontextbasierte Übungen helfen dir, Wörter nicht nur zu lernen, sondern wirklich zu verinnerlichen." },
+      { "title": "Grammatik meistern", "desc": "Verstehe die Strukturen der deutschen Sprache durch interaktive Übungen und klare Erklärungen. Von einfachen Sätzen bis zu komplexen Konstruktionen – Schritt für Schritt." },
+      { "title": "Hörverstehen trainieren", "desc": "Trainiere dein Gehör für die deutsche Sprache mit authentischen Dialogen, Podcasts und Hörtexten in verschiedenen Schwierigkeitsgraden und Akzenten." },
+      { "title": "Aussprache perfektionieren", "desc": "Nutze modernste Spracherkennungstechnologie, um deine Aussprache zu verbessern. Erhalte sofortiges Feedback und übe so lange, bis du wie ein Muttersprachler klingst." }
+    ]
+  },
+  "tasks": {
+    "label": "Lerndesign",
+    "titlePre": "Intelligente Aufgabenvielfalt für",
+    "titleHighlight": "nachhaltigen Lernerfolg",
+    "items": [
+      { "title": "Interaktive Übungen", "desc": "Multiple-Choice-Fragen, Lückentexte und Zuordnungsaufgaben" },
+      { "title": "Spielerische Herausforderungen", "desc": "Gamification-Elemente motivieren und machen das Lernen zum Erlebnis" },
+      { "title": "Alltagsszenarien", "desc": "Realistische Situationen bereiten dich auf echte Gespräche vor" },
+      { "title": "Adaptive Tests", "desc": "Regelmäßige Bewertungen passen sich an deinen Wissensstand an" }
+    ],
+    "body": "Jede Aufgabe wurde sorgfältig entwickelt, um verschiedene Lernstile anzusprechen und alle Aspekte der Sprache abzudecken. Das hält das Lernen abwechslungsreich und hilft dir, deine Ziele schneller zu erreichen.",
+    "imgAlt": "ClioLingo App mit Lernaufgaben"
+  },
+  "stats": {
+    "label": "Fortschrittsverfolgung",
+    "titlePre": "Deine persönliche Lernstatistik:",
+    "titleHighlight": "Transparenz schafft Motivation",
+    "subtitle": "Umfassende Analyse deines Fortschritts",
+    "body": "ClioLingo dokumentiert jeden Schritt deiner Lernreise. Die detaillierten Statistiken zeigen dir nicht nur, wie viele Stunden du investiert hast, sondern auch, wo deine Stärken liegen und welche Bereiche noch Aufmerksamkeit brauchen.",
+    "bullets": [
+      "Tägliche Lernsträhnen und Zeitinvestition",
+      "Abgeschlossene Aufgaben nach Kategorie",
+      "Fehleranalyse und Identifikation von Schwächen",
+      "Fortschritt in jedem Sprachbereich (Wortschatz, Grammatik, Hörverstehen, Aussprache)",
+      "Vergleich mit deiner eigenen vergangenen Leistung"
+    ],
+    "summary": "Diese transparente Darstellung deiner Erfolge motiviert dich weiterzumachen und gibt dir die Kontrolle über deinen Lernprozess.",
+    "imgAlt": "ClioLingo Statistikansicht"
+  },
+  "bridge": {
+    "label": "Tutor-Integration",
+    "titlePre": "Die Brücke zwischen dir",
+    "titleConj": "und",
+    "titleHighlight": "deinem Tutor",
+    "steps": [
+      { "title": "Du lernst mit ClioLingo", "desc": "Erledige Übungen, trainiere dein Hörverstehen und perfektioniere deine Aussprache in deinem eigenen Tempo." },
+      { "title": "Statistiken werden synchronisiert", "desc": "Alle deine Aktivitäten und Ergebnisse werden automatisch erfasst und übersichtlich dargestellt." },
+      { "title": "Tutor analysiert deinen Fortschritt", "desc": "Dein Lehrer sieht genau, wo du erfolgreich bist und wo du Unterstützung benötigst." },
+      { "title": "Individualisierter Unterricht", "desc": "Der Tutor passt die Unterrichtsstunden an deine spezifischen Bedürfnisse an und konzentriert sich auf deine Herausforderungen." }
+    ],
+    "imgAlt": "Tutor verwaltet Klassen in ClioLingo"
+  },
+  "efficiency": {
+    "label": "Datengesteuertes Lernen",
+    "titlePre": "Maximale Effizienz durch",
+    "titleHighlight": "datengesteuerte Tutor-Unterstützung",
+    "cards": [
+      { "title": "Gezielte Vorbereitung", "desc": "Dein Tutor bereitet sich optimal auf jede Unterrichtsstunde vor, indem er deine aktuellen Lernstatistiken überprüft. Keine Zeit wird damit verschwendet, nach deinen Schwächen zu suchen." },
+      { "title": "Fokussierte Erklärungen", "desc": "Anstatt allgemeine Lektionen zu wiederholen, konzentriert sich dein Lehrer auf die grammatischen Strukturen und Themen, bei denen du spezifische Fehler gemacht hast. Das spart Zeit und beschleunigt deinen Fortschritt erheblich." },
+      { "title": "Zusätzliche Theorie bei Bedarf", "desc": "Zeigen die Statistiken Verständnislücken bei bestimmten grammatischen Themen? Dein Tutor ergänzt die App-Inhalte durch detaillierte Erklärungen und stellt sicher, dass du die Konzepte wirklich verstehst." },
+      { "title": "Kontinuierliche Anpassung", "desc": "Die Unterrichtsstunden entwickeln sich mit dir. Was heute eine Herausforderung war, wird morgen zur Stärke – und dein Tutor passt den Fokus entsprechend an." }
+    ]
+  },
+  "appFeatures": {
+    "label": "In der App",
+    "title": "App-Funktionen",
+    "features": [
+      { "title": "Grammatikübung", "desc": "Meistere die deutsche Grammatik mit interaktiven Übungen. Lerne Satzstrukturen, Verbkonjugationen und grammatikalische Regeln durch ansprechende Aufgaben, die sich an dein Niveau anpassen." },
+      { "title": "Hörübung", "desc": "Trainiere dein Gehör mit authentischen deutschen Dialogen, Podcasts und Hörtexten. Verbessere dein Hörverstehen mit Inhalten verschiedener Schwierigkeitsgrade und Akzente." },
+      { "title": "Wortschatz üben", "desc": "Baue deinen deutschen Wortschatz mit innovativen Lernmethoden auf. Nutze Karteikarten, Bildassoziationen und kontextbasierte Übungen, um neue Wörter effektiv zu verinnerlichen." }
+    ]
+  },
+  "investors": {
+    "label": "Partner & Investoren",
+    "titleT1": "Strategische",
+    "titleHighlight": "Partnerschaft",
+    "titleT2": "& Investitionsmöglichkeiten",
+    "subtitle": "Wir suchen derzeit strategische Partner, die an dem schnell wachsenden EdTech-Sektor interessiert sind und nach innovativen Tools suchen, um ein hochwertiges Publikum anzusprechen und zu binden. Wir sehen erhebliches Potenzial für:",
+    "opportunities": [
+      { "title": "Bildungseinrichtungen", "desc": "Integration von ClioLingo zur Verbesserung der Lehrplaneffizienz und der Lehrer-Schüler-Synchronisation." },
+      { "title": "Investoren", "desc": "Skalierung einer Plattform, die das häufige \"Abbruch\"-Problem beim digitalen Lernen durch menschliche Verantwortlichkeit und Datentransparenz löst." },
+      { "title": "Digitale Content Creator & Pädagogen", "desc": "Biete deinem Publikum ein erstklassiges, ergebnisorientiertes Tool, das deine Bildungsinhalte ergänzt und deiner Community messbaren Mehrwert bietet." }
+    ]
+  },
+  "about": {
+    "label": "Über uns",
+    "titlePre": "12 Jahre Cloud-Exzellenz in der",
+    "titleHighlight": "digitalen Bildung",
+    "intro": "Wir verfügen über 12 Jahre Erfahrung in der Entwicklung von Cloud-Lösungen für die digitale Bildung, mit einem Schwerpunkt auf dem Sprachlernen.",
+    "card1Num": "12+",
+    "card1Label": "Jahre Erfahrung",
+    "card1Text": "Über ein Jahrzehnt beim Aufbau und der Verfeinerung cloudbasierter Bildungsplattformen, die Lernende auf der ganzen Welt bedienen.",
+    "card2Label": "Plattformübergreifend",
+    "card2Text": "Wir folgen immer modernen Trends und bevorzugen plattformübergreifende, universelle und flexible Lösungen, die nahtlos auf jedem Gerät funktionieren.",
+    "card3Label": "Fokus auf Sprachlernen",
+    "card3Text": "Sprachlernen ist unsere primäre Domäne. ClioLingo ist die neueste Evolution unserer Expertise, aufgebaut mit bewährten EdTech-Methoden.",
+    "missionTitle": "Unsere Mission",
+    "missionText": "Wir versuchen immer, modernen Trends zu folgen und bevorzugen plattformübergreifende, universelle und flexible Lösungen. ClioLingo steht an der Schnittstelle von KI-gesteuertem Lernen, persönlichem Tutoring und transparenter Fortschrittsanalyse – und schafft den effektivsten Weg zur Beherrschung der deutschen Sprache.",
+    "contactTitle": "Kontakt",
+    "contactText": "Ob du ein Lernender, ein potenzieller Partner oder ein Investor bist, wir würden uns freuen, von dir zu hören. Schreib unserem Team an:"
+  }
+}

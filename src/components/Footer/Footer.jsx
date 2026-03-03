@@ -1,8 +1,11 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import styles from './Footer.module.scss'
-import Logo from '../../assets/Logo.png';
+import Logo from '../../assets/Logo.png'
 
 export default function Footer() {
+    const { t } = useTranslation()
+
     return (
         <footer className={styles.footer}>
             <div className={styles.footer__inner}>
@@ -15,14 +18,14 @@ export default function Footer() {
 
                     <div className={styles.footer__col}>
                         <ul>
-                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/about">{t('footer.aboutUs')}</Link></li>
                         </ul>
                     </div>
 
                     <div className={styles.footer__col}>
                         <ul>
                             <li>
-                                <span>Contact Us: </span>
+                                <span>{t('footer.contactLabel')}</span>
                                 <a href="mailto:sales@e-planet.biz">sales@e-planet.biz</a>
                             </li>
                         </ul>
@@ -30,7 +33,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.footer__bottom}>
-                    <p>© {new Date().getFullYear()} ClioLingo · e-planet.biz. All rights reserved.</p>
+                    <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
                 </div>
             </div>
         </footer>
