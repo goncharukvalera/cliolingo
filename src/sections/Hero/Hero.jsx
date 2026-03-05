@@ -3,7 +3,7 @@ import AutoStoriesIcon from '@mui/icons-material/AutoStories'
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
 import { useTranslation } from 'react-i18next'
 import styles from './Hero.module.scss'
-import appScreenshot from '../../assets/app-screenshot.jpg'
+import appScreenshot from '../../assets/app-screenshot.png'
 
 export default function Hero() {
     const { t } = useTranslation()

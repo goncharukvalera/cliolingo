@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import styles from './StatsSection.module.scss'
-import statsScreenshot from '../../assets/stats-screenshot.jpg'
+import statsScreenshot from '../../assets/stats-screenshot.png'
 
 export default function StatsSection() {
   const { t } = useTranslation()

@@ -4,7 +4,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology'
 import PersonIcon from '@mui/icons-material/Person'
 import { useTranslation } from 'react-i18next'
 import styles from './BridgeSection.module.scss'
-import bridgeScreenshot from '../../assets/bridge-screenshot.jpg'
+import bridgeScreenshot from '../../assets/bridge-screenshot.png'
 
 const icons = [<FitnessCenterIcon />, <BarChartIcon />, <PsychologyIcon />, <PersonIcon />]
 

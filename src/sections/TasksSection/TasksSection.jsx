@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import styles from './TasksSection.module.scss'
-import appScreenshot from '../../assets/app-screenshot.jpg'
+import appScreenshot from '../../assets/app-screenshot.png'
 
 export default function TasksSection() {
   const { t } = useTranslation()
